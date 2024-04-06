@@ -3,31 +3,31 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || "923184070915"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || "923115425068"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://salmanahmad:s4salmanyt@cluster0.szcj2eo.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'xheikhsalman4422@gmail.com'
 global.github = 'https://github.com/salmanytofficial/XLICON-MD'
 global.location = 'Lahore Pak'
 global.gurl = 'https://instagram.com/itz_shaikho/' // add your username
-global.sudo = process.env.SUDO || '923184070915' 
-global.devs = '923184070915';
+global.sudo = process.env.SUDO || '923115425068' 
+global.devs = '923115425068';
 global.website = 'https://github.com/salmanytofficial/XLICON-MD' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/3c341828d86ee7a89c73f.jpg'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/0102e91af561f16f180ad.jpg
 module.exports = {
   sessionName:  process.env.SESSION_ID ||  " ",  //PUT Session Id Here, 
-  author:  process.env.PACK_AUTHER ||  '',
-  packname:  process.env.PACK_NAME || '',
+  author:  process.env.PACK_AUTHER ||  '✦ᑫ ᑌ ᑌ E ᑎ-ꋬ ꋊ ꋬ ꌦ ꋬ ✦,
+  packname:  process.env.PACK_NAME || '✦ᑫ ᑌ ᑌ E ᑎ-ꋬ ꋊ ꋬ ꌦ ꋬ ✦',
    
-  botname:   process.env.BOT_NAME === undefined ? "Xlicon-Md" : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'salmanytofficial' : process.env.OWNER_NAME,  
+  botname:   process.env.BOT_NAME === undefined ? "✦ᑫ ᑌ ᑌ E ᑎ-ꋬ ꋊ ꋬ ꌦ ꋬ ✦௱Ð" : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? '✦ᑫ ᑌ ᑌ E ᑎ-ꋬ ꋊ ꋬ ꌦ ꋬ ✦ : process.env.OWNER_NAME,  
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
-  autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
+  autoreaction:  process.env.AUTO_REACTION  === undefined ? true : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
-  alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
+  alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false  : process.env.ALWAYS_ONLINE,
   antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '971' : process.env.FAKE_COUNTRY_CODE,
   readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE,
-  auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? false : process.env.AUTO_STATUS_SAVER,
+  auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? true  : process.env.AUTO_STATUS_SAVER,
   HANDLERS:  process.env.PREFIX === undefined ? '.' : process.env.PREFIX,
   warncount : process.env.WARN_COUNT === undefined ? 3 : process.env.WARN_COUNT,
   disablepm:  process.env.DISABLE_PM === undefined ? false : process.env.DISABLE_PM,
